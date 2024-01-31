@@ -1,0 +1,15 @@
+.layout {
+    display: flex;
+    height: 100vh;
+  
+    .sidebar {
+      flex: 1;
+      max-width: 200px; 
+    }
+  
+    .content {
+      flex: 3;
+      padding: 1rem; 
+      padding-left: 216px;
+    }
+  }

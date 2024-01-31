@@ -1,0 +1,45 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  padding-left: 2rem;
+  .search {
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+  }
+
+  .pagination {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+    row-gap: 1rem;
+  }
+
+  .searchInput {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+
+  .paginationButton {
+    padding: 10px 20px;
+    margin: 0 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #0070f3;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+    &:hover {
+      background-color: #0051bb;
+    }
+  }
+}
+
+.gridContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 20px;
+}
